@@ -1,4 +1,5 @@
-# Algorithm Learning [Weekly Update]
+# [Algorithm Learning](https://leetcode.com/problemset/all/) [Weekly Update]
+
 
 
 # 1. How to start
