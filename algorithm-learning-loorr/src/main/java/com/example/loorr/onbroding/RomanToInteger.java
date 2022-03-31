@@ -2,6 +2,7 @@ package com.example.loorr.onbroding;
 
 import com.example.common.TemplateCallBack;
 import junit.framework.Assert;
+import lombok.extern.log4j.Log4j2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +12,7 @@ import java.util.Map;
  * @author loorr
  * @link https://leetcode.com/problems/roman-to-integer/
  */
+@Log4j2
 public class RomanToInteger implements TemplateCallBack {
 
     public Map<Character, Integer> convertNumberMap = new HashMap<Character, Integer>(){{
@@ -64,7 +66,7 @@ public class RomanToInteger implements TemplateCallBack {
             }
             preValue = currentValue;
         }
-
+        log.info(s + " " + result);
         return result;
     }
 }
