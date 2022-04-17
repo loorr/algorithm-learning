@@ -7,7 +7,7 @@ import java.util.List;
  * 图节点
  * @link https://leetcode-cn.com/problems/clone-graph/
  */
-class Node {
+public class Node {
     public int val;
     public List<Node> neighbors;
     public Node() {
